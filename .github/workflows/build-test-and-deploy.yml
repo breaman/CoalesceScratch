@@ -51,7 +51,6 @@ jobs:
 
       - name: Check Coalesce has been run
         run: dotnet coalesce --what-if --verify
-        working-directory: src/Scratch.CoalesceScratch.Web
 
       - name: npm run lint
         run: npm run lint

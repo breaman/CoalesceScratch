@@ -1,9 +1,9 @@
 {
   "webProject": {
-    "projectFile": "./Scratch.CoalesceScratch.Web/Scratch.CoalesceScratch.Web.csproj"
+    "projectFile": "./src/Scratch.CoalesceScratch.Web/Scratch.CoalesceScratch.Web.csproj"
   },
   "dataProject": {
-    "projectFile": "./Scratch.CoalesceScratch.Data/Scratch.CoalesceScratch.Data.csproj"
+    "projectFile": "./src/Scratch.CoalesceScratch.Data/Scratch.CoalesceScratch.Data.csproj"
   },
 
   "rootGenerator": "Vue",
