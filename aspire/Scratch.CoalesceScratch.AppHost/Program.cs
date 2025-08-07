@@ -2,7 +2,8 @@ var osArch = System.Runtime.InteropServices.RuntimeInformation.OSArchitecture;
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-var sqlServer = builder.AddSqlServer("sqlserver", null, 1433)
+var sqlServer = builder
+    .AddSqlServer("sqlserver", null, 1433)
     .WithLifetime(ContainerLifetime.Persistent);
 
 if (osArch == System.Runtime.InteropServices.Architecture.Arm64 
