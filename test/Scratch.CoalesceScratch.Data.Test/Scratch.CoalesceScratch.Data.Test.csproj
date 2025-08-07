@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Scratch.CoalesceScratch.Data\Scratch.CoalesceScratch.Data.csproj" />
+    <ProjectReference Include="..\..\src\Scratch.CoalesceScratch.Data\Scratch.CoalesceScratch.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,7 +4,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\aspire\Scratch.CoalesceScratch.ServiceDefaults\Scratch.CoalesceScratch.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\aspire\Scratch.CoalesceScratch.ServiceDefaults\Scratch.CoalesceScratch.ServiceDefaults.csproj" />
     <ProjectReference Include="..\Scratch.CoalesceScratch.Data\Scratch.CoalesceScratch.Data.csproj" />
   </ItemGroup>
 
